@@ -18,14 +18,11 @@ months.
 Your mission is to write a program that pulls gloves from the "Free People" website: http://www.freepeople.com/accessories-gloves-2/ 
 (there are about 15 gloves total).
 
-Your program should download and store the **name, photo, price, url, and description** for
+Your program should download and store the **name, photo, price, url, available colors, and description** for
 each of these products. _Note: You will need to get the description from the details page for each product._
 
 Once you've pulled in the information for each product, create a simple website to display all the
 information you've collected. Your web interface should allow products to be sorted by at least price and name.
-
-**Bonus:** Some products are available in multiple colors. Include a way to crawl, store,
-and display multiple colors as part of your solution.
 
 ### Submitting Your Code ###
 

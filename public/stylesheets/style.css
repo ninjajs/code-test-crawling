@@ -1,0 +1,38 @@
+body {
+	padding: 20px;
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+	color:black;
+}
+
+a:hover {
+	color:red;
+}
+
+form {
+	padding-bottom:10px;
+}
+
+.photo {
+
+}
+
+.product {
+	padding:0px 20px 20px 0px;
+	width:240px;
+	height:450px;
+	border:0px solid red;
+	float:left;
+	overflow: hidden;
+}
+
+.product a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.clear {
+	clear:both;
+}

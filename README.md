@@ -1,3 +1,19 @@
+## Implementation ##
+
+Framework: Express for node.js
+Scraping: Uses jsdom and request node.js modules (look in routes/index.js)
+Front-end: jQuery and handlebars templates
+
+To run you should have node.js and npm installed. Then goto directory where app is located and type "node app.js" in console.
+
+URLs:
+http://localhost:3000/ -main page where you will see products
+http://localhost:3000/scrape -scrape products
+http://localhost:3000/reset -reset products list
+
+Scraped data is written to public/data/products.json
+
+
 ## Software Engineer - Crawling / Frontend Code Test ##
 
 [ZipfWorks](http://www.zipfworks.com/) is currently seeking a software engineer to help with our frontend 

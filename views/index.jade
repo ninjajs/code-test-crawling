@@ -1,0 +1,27 @@
+extends layout
+
+block content
+  h1 #{title}
+  form
+    select
+      option(value='') Sort by
+      option(value='name') Name
+      option(value='price') Price
+  div#products
+  div.clear
+
+  script#product-template(type='text/x-handlebars-template')
+    div.product
+      a(target='_blank', href='{{url}}')
+        img.photo(src='{{image}}')
+
+      div
+        a(target='_blank', href='{{url}}') {{name}}
+        div {{price}}
+        div {{colors}}
+        div {{description}}
+        
+
+
+
+  
